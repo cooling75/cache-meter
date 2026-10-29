@@ -121,7 +121,11 @@ Der Cache-Meter hat eine Einstellung, die Cache-Lebensdauer `ttl`:
 | `5m` | immer 5 Minuten |
 | `1h` | immer 1 Stunde |
 
-Setzen beim Installieren:
+Meldet die Installation „1 userConfig option not yet set“, ist das in
+Ordnung: Ohne Wert gilt `auto`.
+
+In einer Sitzung im Terminal ändert `/plugin configure cache-meter@cache-meter`
+den Wert. Setzen beim Installieren:
 
 ```bash
 claude plugin install cache-meter@cache-meter --config ttl=1h
