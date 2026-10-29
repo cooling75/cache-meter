@@ -1,0 +1,19 @@
+{
+  "name": "cache-meter",
+  "version": "0.1.0",
+  "description": "Leiste über dem Prompt: wie lange der Prompt-Cache noch warm ist, die Trefferquote und wie voll das Kontextfenster ist, mit Compact-Knopf.",
+  "author": { "name": "Jan Laudahn" },
+  "repository": "https://github.com/cooling75/cache-meter",
+  "license": "MIT",
+  "keywords": ["mod", "prompt-cache", "context", "compact"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "ttl": {
+      "type": "string",
+      "title": "Cache-Lebensdauer",
+      "description": "auto: 1 h im Abo, sonst 5 min. Oder fest 5m bzw. 1h.",
+      "default": "auto",
+      "options": ["auto", "5m", "1h"]
+    }
+  }
+}

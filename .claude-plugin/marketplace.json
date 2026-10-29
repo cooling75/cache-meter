@@ -1,0 +1,6 @@
+{
+  "name": "cache-meter",
+  "description": "Cache-Meter: Prompt-Cache-Countdown, Trefferquote und Kontext-Wetter über dem Prompt von Claude Code.",
+  "owner": { "name": "Jan Laudahn" },
+  "plugins": [{ "name": "cache-meter", "source": "./" }]
+}
